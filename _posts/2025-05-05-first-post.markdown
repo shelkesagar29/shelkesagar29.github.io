@@ -32,7 +32,7 @@ gem install jekyll
 After this, we are ready to use Jekyll magic!!
 
 
-### Getting Started
+### Getting Started (First Post)
 1. Create an empty repo on GitHub. If you are planning to use GitHub pages, name must be
 `yourusername.github.io`.
 
@@ -47,17 +47,22 @@ cd yourusername.github.io
 jekyll new . --skip-bundle
 ```  
 This will create project with `minima` theme, by default.
+`__posts` folder contains markdown for each post. First post is already
+populated for you. Change this first post content to your own first post 
+contents.
 
-4. Serve the Site Locally,
+4. Serve the site locally.
+This is optional but very helpful for testing. Run the following commands in 
+the terminal:
 ```bash
 bundle install
 bundle exec jeklyll serve
 ```  
-Open the local server shown in the terminal. Make changes
-to meet your content and styling requirements.
+Open the local server shown in the terminal. You can now see how your post will
+look like after publishing. Make changes, if needed at this stage.
 
-5. Push to GitHub and publish website
-After changes you made are working as expected, push local changes to upstream
+5. Push to GitHub and publish website.
+After you are happy with how your blog post looks like, push local changes to upstream
 GitHub repo.
 ```bash
 git add .  # Adds all changes
@@ -82,3 +87,6 @@ Click `Save` and wait for GitHub to publish your website.
 > - GitHub Pages automatically builds the site using Jekyll (no need to run jekyll build yourself).  
 > - You don’t need to host the `_site/ folder` — GitHub builds it for you.
 
+### New Posts
+
+After website is up and running with your first post, later posts are easy. You just need to follow steps 4 and 5 after adding new post to `_posts` folder. 
