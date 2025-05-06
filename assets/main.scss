@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.tag {
+    background-color: #eee;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #333;
+}
+  
+.tag:hover {
+    background-color: #ddd;
+}
+  
